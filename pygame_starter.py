@@ -7,7 +7,7 @@ WIDTH, HEIGHT = 720, 480
 FRAMERATE = 60
 GRAY = "#7f7f7f"
 
-screen = pygame.display.set_mode((720, 480))
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pygame Starter")
 
 running = True
